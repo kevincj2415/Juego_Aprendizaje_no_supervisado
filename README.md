@@ -110,20 +110,22 @@ Cualquier persona que quiera aprender jugando.# 🎮 Alma Gemela Virtual - Juego
    git clone [https://github.com/tuusuario/alma-gemela-virtual.git](https://github.com/tuusuario/alma-gemela-virtual.git)
    cd alma-gemela-virtual
 2. Crea y activa un entorno virtual (recomendado):
-bash
-CopyInsert
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-# O en Windows:
-# venv\Scripts\activate
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # Linux/Mac
+    ```
+    O en Windows:
+    ```bash
+    .venv\Scripts\activate
+    ```
 3. Instala las dependencias:
-bash
-CopyInsert in Terminal
-pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
+    ```
 4. Ejecuta la aplicación:
-bash
-CopyInsert in Terminal
-streamlit run app.py
+    ```bash
+    streamlit run app.py
+    ```
 
 ## 🎯 Aprendizaje No Supervisado en Acción
 Este proyecto demuestra cómo el aprendizaje no supervisado puede descubrir patrones ocultos en datos no etiquetados. El algoritmo K-Means agrupa a los participantes basándose en sus respuestas, permitiendo emparejamientos basados en similitudes reales.
